@@ -147,9 +147,9 @@ figcaption {
     color: #1e1656;
     background-color: #fbf8ff;
 }
-
+/* float items div to left */
 #categoryItems {
-    float:left;
+    float: left;
 }
 
 /* Edit Sizes Of Category Images */
