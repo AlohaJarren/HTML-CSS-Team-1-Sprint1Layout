@@ -1,0 +1,167 @@
+/* Remove Page Margin */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Update Size & Location Of Nav Bar Logo*/
+#upNavLogo {
+    width: 8em;
+    height: auto;
+    padding-top: .5em;
+    padding-left: 2em;
+}
+
+/* Top Nav Bar Styles */
+#topNavBar {
+    background-color: #6c33a3;
+    background-image: linear-gradient(316deg, #6c33a3 0%, #1e1656 74%);
+    overflow: hidden;
+}
+
+/* Nav Bar Link Styles */
+#topNavBar .navBarLinks {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+/*  Nav Bar Link Hover Styles*/
+#topNavBar .navBarLinks:hover {
+    color: #997df8;
+}
+
+/*  Nav Bar Active Link Style*/
+#topNavBar .navBarLinks:active {
+    color: #b95d8d;
+}
+
+/* Move All Nav Bar Links to Right, Font Change */
+.navBarLinks {
+    float: right;
+    margin-top: .3em;
+    margin-right: 1em;
+    font-family: 'Hattori Hanzo Light', arial;
+}
+
+/* Adjust styles for Search Bar */
+#searchBar {
+    float: right;
+    font-size: 1em;
+    padding: .25em;
+    border: none;
+    margin-top: .9em;
+    margin-right: 2em;
+    font-family: 'Hattori Hanzo Light', arial;
+}
+
+/* Update Size & Location Of Nav Bar Logo*/
+#shoppingCart {
+    width: 3em;
+    padding-top: .5em;
+    padding-right: .5em;
+    height: auto;
+    float: right;
+}
+
+/*  Set Main Selection Bar Color */
+#mainSelectionBar {
+    background-color: #aea8ba59;
+    padding-top:.1em;
+    padding-bottom: .001em;
+}
+
+/* Edit Primary Header */
+#primaryHeader {
+    text-align: center;
+    font-family: 'Hattori Hanzo Light', arial;
+    font-size: 2em;
+    padding-bottom:.02em;
+}
+
+/* Edit Sizes Of Selection Bar Images */
+.selectBarImages {
+    object-fit: cover;
+    width: 14em;
+    height: 14em;
+    margin-left: 5%;
+    margin-right: auto;
+    padding-top:.1em;
+}
+
+/* Edit Selection Bar Captions */
+figcaption {
+    padding-left: 35%;
+    margin-left:auto;
+    margin-right: auto;
+    font-family: 'Hattori Hanzo Light', arial;
+}
+
+/* Adjust Selection Bar Columns */
+.selectBarCol {
+    float: left;
+    width: 16.4%;
+    padding: 0.1%;
+    margin-top: 0;
+    background-color: #aea8ba59;
+}
+
+/* Clear image floats */
+.selectBarRow::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Specify Space For LHS Information*/
+#lhsInfoAndFilter {
+    float:left;
+    margin-left: 0;
+    width: 9%;
+    background-color: #fffade;
+}
+
+/* Align Category & Change Font */
+#currentCategory {
+    font-family: 'Hattori Hanzo Light', arial;
+    text-align: center;
+    padding-top: .5em;
+    font-size: 2em;
+}
+
+/* Align Number Of Items & Change Font */
+#numberOfItems {
+    font-family: 'Hattori Hanzo Light', arial;
+    text-align: center;
+}
+
+/*  Specify Drop Down Menu Spacing & Sizes*/
+.dropbtn {
+    width: 100%;
+    margin-bottom: .3em;
+    height: 4em;
+    font-family: 'Hattori Hanzo Light', arial;
+    font-size: 1em;
+    text-align: left;
+    color: #1e1656;
+    background-color: #fbf8ff;
+}
+
+#categoryItems {
+    float:left;
+}
+
+/* Edit Sizes Of Category Images */
+.categoryImages {
+    object-fit: cover;
+    width: 20em;
+    height: 14em;
+}
+
+/* Adjust Selection Bar Columns */
+.categoryCol {
+    display: inline-block;
+    width: 25%;
+    padding-left: 5%;
+}
