@@ -16,6 +16,7 @@ body {
 #topNavBar {
     background-color: #1e1656;
     /* background-image: linear-gradient(316deg, #6c33a3 0%, #1e1656 74%); */
+    /* margin-bottom: 2vh; */
     overflow: hidden;
 }
 
@@ -24,26 +25,27 @@ body {
     color: white;
     text-align: center;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 5vh;
 }
 
 /*  Nav Bar Link Hover Styles*/
 #topNavBar .navBarLinks:hover {
-    background-color: #5E6A71;
+    background-color: #100a3a;
     /* WORK ON LATER */
     /* margin-top: 0;  */
 }
 
 /*  Nav Bar Active Link Style*/
 #topNavBar .navBarLinks:active {
-    color: #b95d8d;
+    color: #3d3281;
 }
 
 /* Move All Nav Bar Links to Right, Font Change */
 .navBarLinks {
     float: right;
-    margin-top: .3em;
+    margin-top: 1.5vh;
     margin-right: 2.5vw;
+    margin-bottom: 1.5vh;
     font-family: 'Hattori Hanzo Light', arial;
 }
 
@@ -107,26 +109,68 @@ form.search-bar button:hover {
 #categories {
     display: flex;
     width: 100vw;
-    height: 20vh;
-    padding: 0 2%; 
+    height: 25vh;
+    padding: 1em 0.3em; 
+    margin-left: 0;
+    margin-right: 0;
 }
 
+/* item category */
 .itemCategory {
-    max-width: 20%;
+    max-width: 14%;
+    width: 14%;
     cursor: pointer;
+    padding: .2em auto;
+}
+
+.itemCategory:hover {
+    box-shadow: 2px 2px grey;
 }
 
 /* category image */
 .categoryImage{
     
-    max-height: 100%;
+    max-height: 90%;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 auto;
     display: block;
 }
 
+/* title for category */
 .categoryTitle {
+    height: 10%;
     display: block;
     text-align: center;
     align-self: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 auto;
+}
+
+/* Item count display */
+.bottomCatalogHeader {
+    text-align: left;
+    font-family: 'Open Sans', arial;
+}
+
+/* Bottom catalog all items */
+.bottomCatalogItems {
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+/* Bottom catalog item */
+.bottomIndividualItem {
+    flex-basis: 17%;
+    flex-grow: 1;
+    padding: 4%;
+}
+
+/* Bottom catalog item images */
+.bottomImage {
+    max-width: 100%;
 }
