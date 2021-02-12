@@ -128,4 +128,5 @@ form.search-bar button:hover {
 .categoryTitle {
     display: block;
     text-align: center;
+    align-self: center;
 }
