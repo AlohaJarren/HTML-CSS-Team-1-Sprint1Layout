@@ -1,0 +1,124 @@
+/* Remove Page Margin */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Update Size & Location Of Nav Bar Logo*/
+#upNavLogo {
+    width: 10.5vw;
+    height: auto;
+    padding-top: 1.2vh;
+    padding-left: 2.5vw;
+}
+
+/* Top Nav Bar Styles */
+#topNavBar {
+    background-color: #1e1656;
+    /* background-image: linear-gradient(316deg, #6c33a3 0%, #1e1656 74%); */
+    overflow: hidden;
+}
+
+/* Nav Bar Link Styles */
+#topNavBar .navBarLinks {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+/*  Nav Bar Link Hover Styles*/
+#topNavBar .navBarLinks:hover {
+    background-color: #5E6A71;
+    /* WORK ON LATER */
+    /* margin-top: 0;  */
+}
+
+/*  Nav Bar Active Link Style*/
+#topNavBar .navBarLinks:active {
+    color: #b95d8d;
+}
+
+/* Move All Nav Bar Links to Right, Font Change */
+.navBarLinks {
+    float: right;
+    margin-top: .3em;
+    margin-right: 2.5vw;
+    font-family: 'Hattori Hanzo Light', arial;
+}
+
+/*  Set Main Selection Bar Color */
+#mainSelectionBar {
+    background-color: #F5F5F5;
+    position: relative;
+    padding-top: .1vh;
+}
+
+/*  Set Properties of Rental Catalog Header */
+#title {
+    text-align: center;
+    font-family: 'Open Sans Bold', arial;
+    font-size: 3vh;
+}
+
+/* Alignment and positioning of the searchBar div */
+.searchBar {
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Alignment and positioning of the search bar, including the buttons */
+.search-bar{
+    width: 40%;
+    padding: 5px;
+}
+
+/* search box style and size */
+form.search-bar input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 75%;
+    background: #f1f1f1;
+}
+
+/* search bar button style and size */
+form.search-bar button {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background: #3d3281;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+/* search bar button color when hovered*/
+form.search-bar button:hover {
+    background: #1e1656;
+}
+
+/* categories carosel */
+#categories {
+    display: flex;
+    width: 100vw;
+    height: 20vh; 
+}
+
+.itemCategory {
+    max-width: 20%;
+}
+
+/* category image */
+.categoryImage{
+    
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
