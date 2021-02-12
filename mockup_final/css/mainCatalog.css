@@ -125,6 +125,18 @@ form.search-bar button:hover {
     padding: 1em 0 1.2em 0;
     margin-left: 0;
     margin-right: 0;
+    
+}
+
+/* Responsive categories */
+@media only screen and (max-width: 1400px) {
+
+    #categories {
+        overflow-x: scroll;
+    }
+    .itemCategory {
+        min-width: 196px; /*14% of max-width*/
+    }
 }
 
 /* item category */
@@ -134,6 +146,9 @@ form.search-bar button:hover {
     cursor: pointer;
     padding: .2em auto;
     transition: transform .1s; 
+    margin-right: auto;
+    margin-left: auto;
+
 }
 
 /* Enlarge the item category on hover */
@@ -157,9 +172,9 @@ form.search-bar button:hover {
     display: block;
     text-align: center;
     align-self: center;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 0 auto;
+    margin: .3em auto .3em auto;
+    font-family: 'Hattori Hanzo Light', arial;
+    font-size: 1.2em;
 }
 
 /* Item count display */
